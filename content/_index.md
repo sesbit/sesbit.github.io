@@ -6,15 +6,16 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: resume-biography-3
+  #resume-biography-3 will display bio, education, and interests
+  - block: resume-biography
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/CV_Esbit_Simon.pdf
+      #button:
+        #text: Download CV
+        #url: uploads/CV_Esbit_Simon.pdf
       headings:
         about: ''
         education: ''
@@ -33,73 +34,67 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
+  #- block: markdown
+  #  content:
       #title: '📚 My Research'
       #subtitle: '' #If in the future, I want to write more detail about my specific research domain. The Text section below would be great! Just unsilence title and subtitle and write in text(:
-      text: |
+  #    text: |
         
-    design:
-      columns: '1'
+  #  design:
+  #    columns: '1'
+  - block: resume-experience
+    content:
+      title: Experience
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Publications
       filters:
         folders:
           - publications
-        featured_only: true
+        featured_only: false
+        count: 0
     design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
+      view: citation #article - will show a thumbnail and summary
+      columns: 1
+  #    text: ''
+  #    filters:
+  #      folders:
+  #        - publications
+  #      exclude_featured: false
+  #  design:
+  #    view: citation
+  #  design:
+  #    view: card
+  #- block: collection
+  #  id: news
+  #  content:
+  #    title: Recent News
+  #    subtitle: ''
+  #    text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: blog
+  #    page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
-      count: 10
+  #    count: 10
       # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
+  #    filters:
+  #      author: ''
+  #      category: ''
+  #      tag: ''
+  #      exclude_featured: false
+  #      exclude_future: false
+  #      exclude_past: false
+  #      publication_type: ''
       # Choose how many pages you would like to offset by
-      offset: 0
+  #    offset: 0
       # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
+  #    order: desc
+  #  design:
       # Choose a layout view
-      view: card
+  #    view: card
       # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+  #    spacing:
+  #      padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:

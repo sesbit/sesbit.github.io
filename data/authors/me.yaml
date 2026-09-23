@@ -18,7 +18,7 @@ bio: |
   Simon lives at the intersection of medicine and technology,
   bringing a physician's instinct for human connection together with
   a scientist's instinct for rigor. He has spent his career chasing 
-  hard problems across neuroscience, genetics, machine learning, and global health -
+  hard problems across neuroscience, genetics, AI-assisted diagnostics, and global health -
   driven by a love of learning, asking questions, and finding creative solutions.
   Off the clock, he is running trails, exploring caves, and skiing hard,
   carrying that same restless curiosity into everything else he does.
@@ -52,8 +52,8 @@ interests:
 education:
   - degree: Doctor of Medicine (MD)
     institution: Ben-Gurion University of the Negev
-    start: 2021-08-01
-    end: 2026-05-20
+    start: August 2021-
+    end: May 2026
     #summary: |
       #Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
     #button:
@@ -62,20 +62,22 @@ education:
       #icon: hero/arrow-down-tray
   - degree: Certificate in Global Health
     institution: Ben-Gurion University of the Negev
-    start: 2021-08-01
-    end: 2026-05-20
+    start: August 2021- 
+    end: May 2026
   - degree: BS Neuroscience and Cognitive Science
     institution: University of Arizona
-    start: 2017-08-01
-    end: 2019-05-20
+    start: August 2015-
+    end: May 2019
 
 experience:
   - role: Independent Researcher
     #org: 
     start: 2021
     summary: |
-      I lead research projects from idea to publication, working closely with experts across fields like 
-      AI diagnostics, global health, neuroscience, and genetics to turn complex data into published findings.
+      Lead research projects from ideation through data analysis and publication, working closely with experts 
+      across **neuroscience, genetics, AI in healthcare, and global health**. Brings clinical and technical expertise 
+      to investigate challenging problems and turn findings into rigorous, peer-reviewed publications. Collaborate 
+      with researchers across **leading U.S., European, and Israeli institutions. Nine publications**.
     #button:
       #text: View portfolio
       #url: /
@@ -85,24 +87,31 @@ experience:
     start: 2019-09-01
     end: 2021-08-31
     summary: |
-      I combined benchwork with technical systems and operations management at Harvard's Brain Tissue Resource Center
-      — performing brain dissections, building automation tools to streamline data tracking, and writing SQL queries to integrate specimen and clinical databases.
-      I also owned budget management for a $12M NIH grant.
+      Supported neuropathological research through postmortem brain dissection and research operations, 
+      developing **Python and VBA automations** to track productivity and generate reports, **saving ~30 minutes 
+      per person daily while reducing manual errors**. Used **SQL** to support clinical and specimen operations and 
+      fulfill tissue requests for researchers globally. Managed procurement and financial operations for a **$12M 
+      NIH-funded  initiative. Educated public and academic audiences** on neuroscience, mental health, and 
+      brain donation. 
   - role: Team Lead
     org: Social, Cognitive, and Affective Neuroscience Lab, University of Arizona
     start: 2017-06-01
     end: 2019-09-29
     summary: |
-      I led a research team through a multi-phase, US-Department of Defense-funded study on cognitive performance under acute stress - 
-      hiring, training, and overseeing staff while building the database and processing scripts that kept everything running smoothly.
-      I drove the project from design through delivery, reporting results to the US-Department of Defense.
+      Led operations for a **$5M U.S. Department of Defense-funded study** investigating cognitive performance 
+      under acute stress, managing and training a **team of 10 research assistants** and overseeing complex 
+      experimental protocols. Built **REDCap databases and Python workflows** to support data collection and 
+      processing, conducted statistical analyses in R, and translated findings into reports, publications, and **15+ 
+      conference posters**.
   - role: Research Assistant I
     org: Wiens Lab, University of Arizona
     start: 2016-09-01
     end: 2017-06-01
     summary: |
-      I contributed to genomics research projects — executing wetlab SOPs for DNA analysis and building computational models
-      to explore how environmental factors shape species over time.
+      Conducted **population genomic and ecological research** on Oedipodea grasshopper species, applying 
+      RAD-seq workflows from DNA extraction through library preparation and sequencing. Used **R and ArcGIS** for 
+      spatial and climatic modeling, integrating species distributions and environmental data to investigate the 
+      factors shaping divergence between closely related species. 
 
       
      
