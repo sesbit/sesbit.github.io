@@ -34,8 +34,10 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Install Tailwind CSS CLI
-        run: npm install -g @tailwindcss/cli
+      - name: Initialize & Install Tailwind v4 Dependencies
+        run: |
+          if [ ! -f package.json ]; then npm init -y; fi
+          npm install -D tailwindcss @tailwindcss/cli
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
